@@ -7,3 +7,13 @@ In order to scientifically disect whether this hypothesis has any basis, we will
 + Do bank shares experience unusual returns around MPC announcements?
 + Are reactions different for rate hikes, cuts and holds?
 + Do UK-focused banks react differently from more internationally diversified banks?
+
+#### Which banks will I analyse?
+
+Lloyds
+Natwest
+Barclays
+HSBC
+
+The reason we have chosen to analyse these banks specifically is because they give ranges of international exposure and diversity so we can investigate that variable and whether it affects our hypothesis or not.
+It immediately gives us a hypothesis: Lloyds and NatWest may react more strongly to UK monetary-policy news than HSBC because a greater share of their business is directly tied to the UK economy and UK interest rates.
