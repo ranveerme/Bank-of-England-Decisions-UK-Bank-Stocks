@@ -8,11 +8,14 @@ In order to scientifically disect whether this hypothesis has any basis, we will
 + Are reactions different for rate hikes, cuts and holds?
 + Do UK-focused banks react differently from more internationally diversified banks?
 
-#### Which banks will I analyse?
+#### Which banks will we analyse?
 
 Lloyds
+
 Natwest
+
 Barclays
+
 HSBC
 
 The reason we have chosen to analyse these banks specifically is because they give ranges of international exposure and diversity so we can investigate that variable and whether it affects our hypothesis or not.
