@@ -1,6 +1,6 @@
 # Bank-of-England-Decisions-UK-Bank-Stocks
 
-How do major UK-listed banks react to Bank of England monetary-policy announcements, and does the reaction differ depending on whether rates are raised, cut or held?
+## How do major UK-listed banks react to Bank of England monetary-policy announcements, and does the reaction differ depending on whether rates are raised, cut or held?
 
 
 In order to scientifically disect whether this hypothesis has any basis, we will split this question into three sub-questions:
