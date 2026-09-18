@@ -15,5 +15,5 @@ In order to scientifically disect whether this hypothesis has any basis, we will
 + Barclays
 + HSBC
 
-The reason we have chosen to analyse these banks specifically is because they give ranges of international exposure and diversity so we can investigate that variable and whether it affects our hypothesis or not.
+The reason we have chosen to analyse these banks specifically is because they give ranges of international exposure and diversity so we can investigate that variable and whether it affects our inquiry or not.
 It immediately gives us a hypothesis: Lloyds and NatWest may react more strongly to UK monetary-policy news than HSBC because a greater share of their business is directly tied to the UK economy and UK interest rates.
