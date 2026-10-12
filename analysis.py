@@ -2,6 +2,7 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
 import pandas as pd
+import math
 
 # Defining a function to format the return values for display
 def format_return(value):
@@ -215,6 +216,9 @@ for decision in decisions:
         # Check for an ex-dividend date within the three-day window
         dividend_window = dividends.loc[event_window.index, bank]
 
+        if dividend_window.isna().any():
+            raise ValueError("Missing dividend data for " + bank + " on " + event_date)
+
         has_dividend = dividend_window.sum() > 0
 
         if has_dividend:
@@ -260,6 +264,16 @@ column_names = [
     "Relative volume",
     "Dividend overlap"
 ]
+
+# Stops if any calculated metric is missing or infinite
+for result_row in all_results:
+    for value in result_row[3:6]:
+        if not math.isfinite(value):
+            raise ValueError(
+                "Missing or invalid result for "
+                + result_row[0] + " " + result_row[2]
+            )
+
 
 # Convert our list of result rows into a labelled table.
 results = pd.DataFrame(all_results, columns=column_names)
